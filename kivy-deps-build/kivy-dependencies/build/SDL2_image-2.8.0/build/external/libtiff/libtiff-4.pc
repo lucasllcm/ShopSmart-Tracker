@@ -1,0 +1,11 @@
+prefix=/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist
+exec_prefix=/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist
+libdir=/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist/lib
+includedir=/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -L/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist/lib -ltiff
+Libs.private: 
+Cflags: -I/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/dist/include

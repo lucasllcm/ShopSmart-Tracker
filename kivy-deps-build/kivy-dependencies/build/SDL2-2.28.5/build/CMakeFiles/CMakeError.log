@@ -1,0 +1,999 @@
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_X86 failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_863d4 && [1/2] Building C object CMakeFiles/cmTC_863d4.dir/src.c.o
+FAILED: CMakeFiles/cmTC_863d4.dir/src.c.o 
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_X86 -o CMakeFiles/cmTC_863d4.dir/src.c.o -c src.c
+src.c: In function ‘main’:
+src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+src.c:6:8: error: expected ‘;’ before ‘}’ token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__) ||defined( __i386) || defined(_M_IX86)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM32 failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fafd1 && [1/2] Building C object CMakeFiles/cmTC_fafd1.dir/src.c.o
+FAILED: CMakeFiles/cmTC_fafd1.dir/src.c.o 
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_ARM32 -o CMakeFiles/cmTC_fafd1.dir/src.c.o -c src.c
+src.c: In function ‘main’:
+src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+src.c:6:8: error: expected ‘;’ before ‘}’ token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__arm__) || defined(_M_ARM)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_ARM64 failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9d0f3 && [1/2] Building C object CMakeFiles/cmTC_9d0f3.dir/src.c.o
+FAILED: CMakeFiles/cmTC_9d0f3.dir/src.c.o 
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_ARM64 -o CMakeFiles/cmTC_9d0f3.dir/src.c.o -c src.c
+src.c: In function ‘main’:
+src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+src.c:6:8: error: expected ‘;’ before ‘}’ token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__aarch64__) || defined(_M_ARM64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test CHECK_CPU_ARCHITECTURE_LOONGARCH64 failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4ca81 && [1/2] Building C object CMakeFiles/cmTC_4ca81.dir/src.c.o
+FAILED: CMakeFiles/cmTC_4ca81.dir/src.c.o 
+/usr/bin/cc   -DCHECK_CPU_ARCHITECTURE_LOONGARCH64 -o CMakeFiles/cmTC_4ca81.dir/src.c.o -c src.c
+src.c: In function ‘main’:
+src.c:6:3: error: ‘choke’ undeclared (first use in this function)
+    6 |   choke
+      |   ^~~~~
+src.c:6:3: note: each undeclared identifier is reported only once for each function it appears in
+src.c:6:8: error: expected ‘;’ before ‘}’ token
+    6 |   choke
+      |        ^
+      |        ;
+    7 | #endif
+    8 | }
+      | ~       
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+int main(int argc, char *argv[]) {
+#if defined(__loongarch64)
+  return 0;
+#else
+  choke
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a67d && [1/2] Building C object CMakeFiles/cmTC_6a67d.dir/src.c.o
+FAILED: CMakeFiles/cmTC_6a67d.dir/src.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DHAVE_ALTIVEC_H_HDR -maltivec -o CMakeFiles/cmTC_6a67d.dir/src.c.o -c src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          #include <altivec.h>
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test CPU_SUPPORTS_ALTIVEC failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b7375 && [1/2] Building C object CMakeFiles/cmTC_b7375.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b7375.dir/src.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DCPU_SUPPORTS_ALTIVEC -maltivec -o CMakeFiles/cmTC_b7375.dir/src.c.o -c src.c
+cc: error: unrecognized command-line option ‘-maltivec’
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+          vector unsigned int vzero() {
+              return vec_splat_u32(0);
+          }
+          int main(int argc, char **argv) { return 0; }
+Determining if the include file libunwind.h exists failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9ba28 && [1/2] Building C object CMakeFiles/cmTC_9ba28.dir/CheckIncludeFile.c.o
+FAILED: CMakeFiles/cmTC_9ba28.dir/CheckIncludeFile.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_9ba28.dir/CheckIncludeFile.c.o -c CheckIncludeFile.c
+CheckIncludeFile.c:1:10: fatal error: libunwind.h: No such file or directory
+    1 | #include <libunwind.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the strlcpy exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c3967 && [1/2] Building C object CMakeFiles/cmTC_c3967.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c3967.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c3967.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘strlcpy’ undeclared (first use in this function); did you mean ‘strncpy’?
+   14 |   return ((int*)(&strlcpy))[argc];
+      |                   ^~~~~~~
+      |                   strncpy
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcat exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1ae89 && [1/2] Building C object CMakeFiles/cmTC_1ae89.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_1ae89.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_1ae89.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘strlcat’ undeclared (first use in this function); did you mean ‘strncat’?
+   14 |   return ((int*)(&strlcat))[argc];
+      |                   ^~~~~~~
+      |                   strncat
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcat
+  return ((int*)(&strlcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strrev exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_735d5 && [1/2] Building C object CMakeFiles/cmTC_735d5.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_735d5.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_735d5.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_strrev’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strrev))[argc];
+      |                   ^~~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strrev
+  return ((int*)(&_strrev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strupr exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_517e6 && [1/2] Building C object CMakeFiles/cmTC_517e6.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_517e6.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_517e6.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_strupr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strupr))[argc];
+      |                   ^~~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strupr
+  return ((int*)(&_strupr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strlwr exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4e184 && [1/2] Building C object CMakeFiles/cmTC_4e184.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4e184.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4e184.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_strlwr’ undeclared (first use in this function)
+   14 |   return ((int*)(&_strlwr))[argc];
+      |                   ^~~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strlwr
+  return ((int*)(&_strlwr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the itoa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fe994 && [1/2] Building C object CMakeFiles/cmTC_fe994.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_fe994.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_fe994.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘itoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&itoa))[argc];
+      |                   ^~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef itoa
+  return ((int*)(&itoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ltoa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e3d45 && [1/2] Building C object CMakeFiles/cmTC_e3d45.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e3d45.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e3d45.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_ltoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ltoa))[argc];
+      |                   ^~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ltoa
+  return ((int*)(&_ltoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _uitoa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6687e && [1/2] Building C object CMakeFiles/cmTC_6687e.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_6687e.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_6687e.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_uitoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_uitoa))[argc];
+      |                   ^~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _uitoa
+  return ((int*)(&_uitoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ultoa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3427f && [1/2] Building C object CMakeFiles/cmTC_3427f.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_3427f.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3427f.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_ultoa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ultoa))[argc];
+      |                   ^~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ultoa
+  return ((int*)(&_ultoa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _i64toa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c00bc && [1/2] Building C object CMakeFiles/cmTC_c00bc.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c00bc.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c00bc.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_i64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_i64toa))[argc];
+      |                   ^~~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _i64toa
+  return ((int*)(&_i64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _ui64toa exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d4dae && [1/2] Building C object CMakeFiles/cmTC_d4dae.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_d4dae.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_d4dae.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_ui64toa’ undeclared (first use in this function)
+   14 |   return ((int*)(&_ui64toa))[argc];
+      |                   ^~~~~~~~
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _ui64toa
+  return ((int*)(&_ui64toa))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _stricmp exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3fdff && [1/2] Building C object CMakeFiles/cmTC_3fdff.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_3fdff.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_3fdff.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_stricmp))[argc];
+      |                   ^~~~~~~~
+      |                   strncmp
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _stricmp
+  return ((int*)(&_stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strnicmp exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4a2e2 && [1/2] Building C object CMakeFiles/cmTC_4a2e2.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_4a2e2.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_4a2e2.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_strnicmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   14 |   return ((int*)(&_strnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   strncmp
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strnicmp
+  return ((int*)(&_strnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsdup exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b793c && [1/2] Building C object CMakeFiles/cmTC_b793c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_b793c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b793c.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_wcsdup’ undeclared (first use in this function); did you mean ‘wcsdup’?
+   14 |   return ((int*)(&_wcsdup))[argc];
+      |                   ^~~~~~~
+      |                   wcsdup
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsdup
+  return ((int*)(&_wcsdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcat exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_bbe02 && [1/2] Building C object CMakeFiles/cmTC_bbe02.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_bbe02.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_bbe02.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘wcslcat’ undeclared (first use in this function); did you mean ‘wcsncat’?
+   14 |   return ((int*)(&wcslcat))[argc];
+      |                   ^~~~~~~
+      |                   wcsncat
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcat
+  return ((int*)(&wcslcat))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the wcslcpy exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e50c1 && [1/2] Building C object CMakeFiles/cmTC_e50c1.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e50c1.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e50c1.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘wcslcpy’ undeclared (first use in this function); did you mean ‘wcsncpy’?
+   14 |   return ((int*)(&wcslcpy))[argc];
+      |                   ^~~~~~~
+      |                   wcsncpy
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef wcslcpy
+  return ((int*)(&wcslcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsicmp exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a8f60 && [1/2] Building C object CMakeFiles/cmTC_a8f60.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_a8f60.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_a8f60.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_wcsicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsicmp))[argc];
+      |                   ^~~~~~~~
+      |                   wcsncmp
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsicmp
+  return ((int*)(&_wcsicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _wcsnicmp exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e0776 && [1/2] Building C object CMakeFiles/cmTC_e0776.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_e0776.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_e0776.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:14:19: error: ‘_wcsnicmp’ undeclared (first use in this function); did you mean ‘wcsncmp’?
+   14 |   return ((int*)(&_wcsnicmp))[argc];
+      |                   ^~~~~~~~~
+      |                   wcsncmp
+CheckSymbolExists.c:14:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stddef.h>
+#include <stdarg.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <wchar.h>
+#include <float.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _wcsnicmp
+  return ((int*)(&_wcsnicmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysctlbyname exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0b8f9 && [1/2] Building C object CMakeFiles/cmTC_0b8f9.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_0b8f9.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_0b8f9.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+In file included from CheckSymbolExists.c:3:
+/usr/include/x86_64-linux-gnu/sys/sysctl.h:21:2: warning: #warning "The <sys/sysctl.h> header is deprecated and will be removed." [-Wcpp]
+   21 | #warning "The <sys/sysctl.h> header is deprecated and will be removed."
+      |  ^~~~~~~
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:9:19: error: ‘sysctlbyname’ undeclared (first use in this function)
+    9 |   return ((int*)(&sysctlbyname))[argc];
+      |                   ^~~~~~~~~~~~
+CheckSymbolExists.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/sysctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysctlbyname
+  return ((int*)(&sysctlbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the elf_aux_info exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ee19 && [1/2] Building C object CMakeFiles/cmTC_2ee19.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_2ee19.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_2ee19.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘elf_aux_info’ undeclared (first use in this function)
+    8 |   return ((int*)(&elf_aux_info))[argc];
+      |                   ^~~~~~~~~~~~
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/auxv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef elf_aux_info
+  return ((int*)(&elf_aux_info))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function iconv_open exists in the iconv failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a681 && [1/2] Building C object CMakeFiles/cmTC_6a681.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_6a681
+FAILED: cmTC_6a681 
+: && /usr/bin/cc -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DCHECK_FUNCTION_EXISTS=iconv_open  -D_GNU_SOURCE=1  CMakeFiles/cmTC_6a681.dir/CheckFunctionExists.c.o -o cmTC_6a681  -liconv && :
+/usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the alloca exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c892c && [1/2] Building C object CMakeFiles/cmTC_c892c.dir/CheckSymbolExists.c.o
+FAILED: CMakeFiles/cmTC_c892c.dir/CheckSymbolExists.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_c892c.dir/CheckSymbolExists.c.o -c CheckSymbolExists.c
+CheckSymbolExists.c: In function ‘main’:
+CheckSymbolExists.c:8:19: error: ‘alloca’ undeclared (first use in this function); did you mean ‘valloc’?
+    8 |   return ((int*)(&alloca))[argc];
+      |                   ^~~~~~
+      |                   valloc
+CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alloca
+  return ((int*)(&alloca))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b6959 && [1/2] Building C object CMakeFiles/cmTC_b6959.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b6959
+FAILED: cmTC_b6959 
+: && /usr/bin/cc -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  CMakeFiles/cmTC_b6959.dir/CheckSymbolExists.c.o -o cmTC_b6959   && :
+/usr/bin/ld: CMakeFiles/cmTC_b6959.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `dlopen'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+File /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_RPI failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_88bd3 && [1/2] Building C object CMakeFiles/cmTC_88bd3.dir/src.c.o
+FAILED: CMakeFiles/cmTC_88bd3.dir/src.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DHAVE_RPI  -D_GNU_SOURCE=1  -I/opt/vc/include -I/opt/vc/include/interface/vcos/pthreads -I/opt/vc/include/interface/vmcs_host/linux/  -L/opt/vc/lib -o CMakeFiles/cmTC_88bd3.dir/src.c.o -c src.c
+src.c:2:18: fatal error: bcm_host.h: No such file or directory
+    2 |         #include <bcm_host.h>
+      |                  ^~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+        #include <bcm_host.h>
+        #include <EGL/eglplatform.h>
+        int main(int argc, char **argv) {
+          EGL_DISPMANX_WINDOW_T window;
+          bcm_host_init();
+        }
+Performing C SOURCE FILE Test HAVE_VIVANTE_VDK failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0b16c && [1/2] Building C object CMakeFiles/cmTC_0b16c.dir/src.c.o
+FAILED: CMakeFiles/cmTC_0b16c.dir/src.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DHAVE_VIVANTE_VDK  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_0b16c.dir/src.c.o -c src.c
+src.c:2:18: fatal error: gc_vdk.h: No such file or directory
+    2 |         #include <gc_vdk.h>
+      |                  ^~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+        #include <gc_vdk.h>
+        int main(int argc, char** argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_VIVANTE_EGL_FB failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b2571 && [1/2] Building C object CMakeFiles/cmTC_b2571.dir/src.c.o
+FAILED: CMakeFiles/cmTC_b2571.dir/src.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos" -DHAVE_VIVANTE_EGL_FB  -D_GNU_SOURCE=1 -o CMakeFiles/cmTC_b2571.dir/src.c.o -c src.c
+src.c:4:18: fatal error: EGL/eglvivante.h: No such file or directory
+    4 |         #include <EGL/eglvivante.h>
+      |                  ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+
+        #define LINUX
+        #define EGL_API_FB
+        #include <EGL/eglvivante.h>
+        int main(int argc, char** argv) { return 0; }
+Determining if files pthread_np.h exist failed with the following output:
+Change Dir: /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_33b57 && [1/2] Building C object CMakeFiles/cmTC_33b57.dir/HAVE_PTHREAD_NP_H.c.o
+FAILED: CMakeFiles/cmTC_33b57.dir/HAVE_PTHREAD_NP_H.c.o 
+/usr/bin/cc   -idirafter "/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/src/video/khronos"  -D_GNU_SOURCE=1 -D_REENTRANT -pthread -o CMakeFiles/cmTC_33b57.dir/HAVE_PTHREAD_NP_H.c.o -c /home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
+/home/proficionlcm/vscode/ShopSmart-Tracker/kivy-deps-build/kivy-dependencies/build/SDL2-2.28.5/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:2:10: fatal error: pthread_np.h: No such file or directory
+    2 | #include <pthread_np.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+Source:
+/* */
+#include <pthread_np.h>
+
+
+int main(void){return 0;}
+
